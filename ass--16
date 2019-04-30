@@ -37,7 +37,8 @@ def make_amount(rupees_to_make,no_of_five,no_of_one):
     one_needed=1
 
     #Start writing your code here
-    five_needed=rupees_to_make/5
+    five_needed=rupees_to_make//5       
+    #You can still use 5.0 / 2.0 to return 2.5, but if you want to do floor division you should use the Python 3 syntax of //,
     one_needed=rupees_to_make%5
     #Populate the variables: five_needed and one_needed
 
